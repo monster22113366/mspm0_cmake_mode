@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks":[
+            {
+                "label": "fuck",
+                "type": "shell",
+                "command": "./run.sh",         // 保持调用 run.sh 脚本
+                "options": {
+                    "cwd": "${workspaceFolder}",
+                    "shell": {
+                        "executable": "/usr/bin/bash",    // 使用 Ubuntu 的 Bash shell
+                        "args": ["-c"]
+                    }
+                },
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+        ]
+}
