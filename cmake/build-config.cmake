@@ -37,10 +37,7 @@ set(DRIVERLIB_WARNING_FLAGS "-Wall -Wno-pedantic -Wno-unused-parameter -Wno-unus
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -g3 -ggdb")
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -DNDEBUG")
 
-# 输出目录设置
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+
 
 message(STATUS "Build configuration:")
 message(STATUS "  Target Device: ${TARGET_DEVICE}")

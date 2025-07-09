@@ -1499,8 +1499,6 @@ Discarded input sections
  .rodata.TIMG8  0x00000000        0x4 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .rodata.DEBUGSS
                 0x00000000        0x4 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .bss.fuck      0x00000000        0x4 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .text.test     0x00000000       0x18 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .debug_macro   0x00000000      0xac0 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .debug_macro   0x00000000       0x75 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
@@ -3600,7 +3598,7 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
 LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a
 
-.debug_frame    0x00000000     0x23bc
+.debug_frame    0x00000000     0x23a0
  .debug_frame   0x00000000       0x70 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-nano-vfprintf_float.o)
  .debug_frame   0x00000070       0x54 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_frame   0x000000c4      0x138 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc_nano.a(libc_a-findfp.o)
@@ -3647,27 +3645,27 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
  .debug_frame   0x00001280       0x4c CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
  .debug_frame   0x000012cc       0x68 CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
  .debug_frame   0x00001334      0x248 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
- .debug_frame   0x0000157c       0x68 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .debug_frame   0x000015e4       0x8c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
- .debug_frame   0x00001670       0x30 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
- .debug_frame   0x000016a0      0x334 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
- .debug_frame   0x000019d4      0x678 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
- .debug_frame   0x0000204c       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
- .debug_frame   0x0000206c       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
- .debug_frame   0x0000208c       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(adddf3.o)
- .debug_frame   0x000020c8       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
- .debug_frame   0x00002104       0x38 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(eqdf2.o)
- .debug_frame   0x0000213c       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(gedf2.o)
- .debug_frame   0x00002178       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(ledf2.o)
- .debug_frame   0x000021b4       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
- .debug_frame   0x000021f0       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(subdf3.o)
- .debug_frame   0x0000222c       0x34 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(unorddf2.o)
- .debug_frame   0x00002260       0x30 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(fixdfsi.o)
- .debug_frame   0x00002290       0x2c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
- .debug_frame   0x000022bc       0x28 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(floatunsidf.o)
- .debug_frame   0x000022e4       0x44 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-vsprintf.o)
- .debug_frame   0x00002328       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-errno.o)
- .debug_frame   0x00002348       0x74 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x0000157c       0x4c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_frame   0x000015c8       0x8c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+ .debug_frame   0x00001654       0x30 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+ .debug_frame   0x00001684      0x334 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+ .debug_frame   0x000019b8      0x678 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+ .debug_frame   0x00002030       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00002050       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_divsi3.o)
+ .debug_frame   0x00002070       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(adddf3.o)
+ .debug_frame   0x000020ac       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(divdf3.o)
+ .debug_frame   0x000020e8       0x38 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(eqdf2.o)
+ .debug_frame   0x00002120       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(gedf2.o)
+ .debug_frame   0x0000215c       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(ledf2.o)
+ .debug_frame   0x00002198       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(muldf3.o)
+ .debug_frame   0x000021d4       0x3c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(subdf3.o)
+ .debug_frame   0x00002210       0x34 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(unorddf2.o)
+ .debug_frame   0x00002244       0x30 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(fixdfsi.o)
+ .debug_frame   0x00002274       0x2c /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(floatsidf.o)
+ .debug_frame   0x000022a0       0x28 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(floatunsidf.o)
+ .debug_frame   0x000022c8       0x44 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-vsprintf.o)
+ .debug_frame   0x0000230c       0x20 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000232c       0x74 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg_nano.a(libc_a-nano-svfprintf.o)
 
 .debug_line_str
                 0x00000000      0x1ae
@@ -3689,31 +3687,31 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
  .debug_line_str
                 0x000001ae       0xc2 /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
 
-.debug_info     0x00000000    0x3d602
+.debug_info     0x00000000    0x3d5e3
  .debug_info    0x00000000     0x65b6 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
  .debug_info    0x000065b6     0x7602 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj
  .debug_info    0x0000dbb8     0x6659 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
  .debug_info    0x00014211     0x665b CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
  .debug_info    0x0001a86c      0x6d9 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
- .debug_info    0x0001af45     0x66c9 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .debug_info    0x0002160e     0x675c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
- .debug_info    0x00027d6a     0x6599 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
- .debug_info    0x0002e303     0x7134 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
- .debug_info    0x00035437     0x81cb lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+ .debug_info    0x0001af45     0x66aa CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_info    0x000215ef     0x675c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+ .debug_info    0x00027d4b     0x6599 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+ .debug_info    0x0002e2e4     0x7134 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+ .debug_info    0x00035418     0x81cb lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
-.debug_abbrev   0x00000000     0x17fe
+.debug_abbrev   0x00000000     0x17fc
  .debug_abbrev  0x00000000      0x1ca CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
  .debug_abbrev  0x000001ca      0x319 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj
  .debug_abbrev  0x000004e3      0x20d CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
  .debug_abbrev  0x000006f0      0x220 CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
  .debug_abbrev  0x00000910      0x1aa CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
- .debug_abbrev  0x00000aba      0x24c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .debug_abbrev  0x00000d06      0x2cd CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
- .debug_abbrev  0x00000fd3      0x1d6 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
- .debug_abbrev  0x000011a9      0x34b lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
- .debug_abbrev  0x000014f4      0x30a lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+ .debug_abbrev  0x00000aba      0x24a CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_abbrev  0x00000d04      0x2cd CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+ .debug_abbrev  0x00000fd1      0x1d6 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+ .debug_abbrev  0x000011a7      0x34b lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+ .debug_abbrev  0x000014f2      0x30a lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
-.debug_aranges  0x00000000      0x560
+.debug_aranges  0x00000000      0x558
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
  .debug_aranges
@@ -3725,18 +3723,18 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
  .debug_aranges
                 0x000001a0       0xa8 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
  .debug_aranges
-                0x00000248       0x30 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+                0x00000248       0x28 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .debug_aranges
-                0x00000278       0x38 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+                0x00000270       0x38 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
  .debug_aranges
-                0x000002b0       0x20 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+                0x000002a8       0x20 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
  .debug_aranges
-                0x000002d0       0xe0 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+                0x000002c8       0xe0 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
  .debug_aranges
-                0x000003b0      0x1b0 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+                0x000003a8      0x1b0 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
 .debug_rnglists
-                0x00000000      0x3eb
+                0x00000000      0x3e5
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
  .debug_rnglists
@@ -3748,15 +3746,15 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
  .debug_rnglists
                 0x00000125       0x79 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
  .debug_rnglists
-                0x0000019e       0x20 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+                0x0000019e       0x1a CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
  .debug_rnglists
-                0x000001be       0x26 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+                0x000001b8       0x26 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
  .debug_rnglists
-                0x000001e4       0x13 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+                0x000001de       0x13 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
  .debug_rnglists
-                0x000001f7       0xa8 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+                0x000001f1       0xa8 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
  .debug_rnglists
-                0x0000029f      0x14c lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+                0x00000299      0x14c lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
 .debug_macro    0x00000000    0x2a3c6
  .debug_macro   0x00000000      0x4db CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
@@ -3888,30 +3886,30 @@ LOAD /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/../lib/gcc/
  .debug_macro   0x00029ce7      0x1fd lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
  .debug_macro   0x00029ee4      0x4e2 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
-.debug_line     0x00000000     0x7ae6
+.debug_line     0x00000000     0x7acf
  .debug_line    0x00000000      0xc10 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
  .debug_line    0x00000c10     0x105c CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj
  .debug_line    0x00001c6c      0xc3f CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
  .debug_line    0x000028ab      0xc5e CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
  .debug_line    0x00003509      0x5b7 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
- .debug_line    0x00003ac0      0xc6f CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .debug_line    0x0000472f      0xccf CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
- .debug_line    0x000053fe      0x6fe lib/libti_mspm0_driverlib.a(dl_common.c.obj)
- .debug_line    0x00005afc      0xc5a lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
- .debug_line    0x00006756     0x1390 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+ .debug_line    0x00003ac0      0xc58 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_line    0x00004718      0xccf CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+ .debug_line    0x000053e7      0x6fe lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+ .debug_line    0x00005ae5      0xc5a lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+ .debug_line    0x0000673f     0x1390 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
-.debug_str      0x00000000   0x10ecc0
- .debug_str     0x00000000   0x10ecc0 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
+.debug_str      0x00000000   0x10ecb6
+ .debug_str     0x00000000   0x10ecb6 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
                              0x10b42a (size before relaxing)
- .debug_str     0x0010ecc0   0x10c977 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj
- .debug_str     0x0010ecc0   0x10b5d5 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
- .debug_str     0x0010ecc0   0x10b46b CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
- .debug_str     0x0010ecc0     0x8a92 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
- .debug_str     0x0010ecc0   0x10b49c CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
- .debug_str     0x0010ecc0   0x10b4c9 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
- .debug_str     0x0010ecc0    0xe7a97 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
- .debug_str     0x0010ecc0    0xef964 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
- .debug_str     0x0010ecc0    0xf2018 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
+ .debug_str     0x0010ecb6   0x10c977 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj
+ .debug_str     0x0010ecb6   0x10b5d5 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj
+ .debug_str     0x0010ecb6   0x10b46b CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj
+ .debug_str     0x0010ecb6     0x8a92 CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj
+ .debug_str     0x0010ecb6   0x10b492 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/scheduler.c.obj
+ .debug_str     0x0010ecb6   0x10b4c9 CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj
+ .debug_str     0x0010ecb6    0xe7a97 lib/libti_mspm0_driverlib.a(dl_common.c.obj)
+ .debug_str     0x0010ecb6    0xef964 lib/libti_mspm0_driverlib.a(dl_uart.c.obj)
+ .debug_str     0x0010ecb6    0xf2018 lib/libti_mspm0_driverlib.a(dl_timer.c.obj)
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj
