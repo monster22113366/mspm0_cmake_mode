@@ -3,7 +3,7 @@
 
 volatile uint32_t uwTick;
 uint8_t task_num = 0;
-uint32_t fuck;
+
 typedef struct 
 {
     void (*func) (void);
@@ -11,10 +11,7 @@ typedef struct
     uint32_t task_lastrun;
 }task_t;
 
-void test(void)
-{
-    fuck++;
-}
+
 task_t task_list[] = 
 {
     {uart_task,200,0},

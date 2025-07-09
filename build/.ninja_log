@@ -4,15 +4,13 @@
 12	294	1751773562127194197	CMakeFiles/mspm0_scheduler_mode.dir/cmake/syscalls.c.obj	1bad3a71b9f76aeb
 5	836	1751773562120194647	cmake/ti-mspm0/CMakeFiles/ti_mspm0_driverlib.dir/__/__/code/Driver/ti/driverlib/m0p/dl_interrupt.c.obj	93b2d90597e7a7e6
 1077	1177	1751773563192125805	lib/libti_mspm0_driverlib.a	a9ee6501f2e48f99
-554	753	1751792575504542816	bin/mspm0_scheduler_mode.elf	abc64e91217bf081
+543	949	1752022538932792794	bin/mspm0_scheduler_mode.elf	abc64e91217bf081
 5	877	1751773562120194647	cmake/ti-mspm0/CMakeFiles/ti_mspm0_driverlib.dir/__/__/code/Driver/ti/driverlib/dl_vref.c.obj	7f79ef35c8e53352
 4	518	1751791981502800359	CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/mspm0g3507_it.c.obj	52743991472417c5
 4	1077	1751773562119194711	cmake/ti-mspm0/CMakeFiles/ti_mspm0_driverlib.dir/__/__/code/Driver/ti/driverlib/dl_timer.c.obj	1f39e5d07d06d605
 2	510	1751792574952538521	CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/main.c.obj	80513e27a1e21aa2
 4	548	1751792490001832904	CMakeFiles/mspm0_scheduler_mode.dir/code/App/Src/appuart.c.obj	9c336ca13da82864
-5	521	1751791981503800380	CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj	ded6e521bb938efc
+2	543	1752022538391788440	CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj	ded6e521bb938efc
 3	553	1751792574953538528	CMakeFiles/mspm0_scheduler_mode.dir/code/User/Src/hardware_init.c.obj	c6880f120d40b23a
 3	869	1751773562118194776	cmake/ti-mspm0/CMakeFiles/ti_mspm0_driverlib.dir/__/__/code/Driver/ti/driverlib/dl_uart.c.obj	a80df664f9dbda04
 2	836	1751773562117194840	cmake/ti-mspm0/CMakeFiles/ti_mspm0_driverlib.dir/__/__/code/Driver/ti/driverlib/dl_common.c.obj	ba4623477cd52b65
-2	554	1751794154999096979	CMakeFiles/mspm0_scheduler_mode.dir/cmake/startup_mspm0g3507.c.obj	ded6e521bb938efc
-555	768	1751794155552089287	bin/mspm0_scheduler_mode.elf	abc64e91217bf081
