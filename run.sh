@@ -30,7 +30,7 @@ cd build || {
 }
 
 # 删除 build 目录下的所有文件
-rm -rf _* || {
+rm -rf * || {
     echo -e "${COLOR_RED}清理 build 目录失败！${COLOR_RESET}"
     exit 1
 }
